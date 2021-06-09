@@ -34,12 +34,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
-date
-        ls -la
-        uname -a
-        df -h
-        which wget
-        which curl
-        curl -X POST -H "Content-Type: application/json" -d '{"value1":"hello everyone!","value2":"","value3":""}' https://maker.ifttt.com/trigger/triggerdevops/with/key/${{ secrets.IFTTT_KEY }}
-© 2021 GitHub, Inc.
